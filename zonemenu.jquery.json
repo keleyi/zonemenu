@@ -1,0 +1,34 @@
+﻿{
+"name": "ZoneMenu",
+"title": "ZoneMenu",
+"description": "A jQuery plugin.Very simple to use.",
+"keywords": [
+"ZoneMenu",
+"UI",
+"jQuery"
+],
+ "version": "0.1.0",
+ "author": {
+"name": "KeLeyi",
+"url": "http://keleyi.com"
+},
+"maintainers": [
+{
+"name": "KeLeyi",
+"url": "http://keleyi.com"
+}
+],
+"licenses": [
+{
+"type": "MIT",
+"url": "https://github.com/keleyi/myslider/blob/master/LICENSE"
+}
+],
+"homepage": "http://keleyi.com/",
+"docs": "https://github.com/keleyi/zonemenu",
+"download": "https://github.com/keleyi/zonemenu",
+"demo": "http://keleyi.com/jq/zonemenu/",
+"dependencies": {
+"jquery": ">=1.9"
+}
+}

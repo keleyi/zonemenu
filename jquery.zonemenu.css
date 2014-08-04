@@ -1,0 +1,51 @@
+.zonemenu{width:200px;height:40px;font-size:20px;border:1px solid #999;padding:0px;}
+.zonemenu div{position:absolute;border:0px solid #666;
+font:12px/1.5 \5fae\8f6f\96c5\9ed1;display:none;margin:0px;z-index:999;
+}
+.zonemenu span{line-height:40px}
+.keleyizoneframe{display:block;width:100%}
+.zonemenu .keleyistatus{display:inline-block;float:right;width:30px;color:Gray}
+.zonemenutitle{display:inline-block;overflow:hidden;width:168px;}
+.zonemenutitle a{color:blue;text-decoration:none;}
+.zonemenu div a{color:Blue;text-decoration:none}
+.zonemenu div, ul, li {
+	margin:0;
+	padding:0;
+}
+.zonemenu div ul {
+	list-style-type:none;
+}
+.zonemenu div ul {
+	float:left;
+	border:1px solid #979797;
+	background:url(line.png) 24px 0 repeat-y #f1f1f1;
+	padding:2px;
+	box-shadow:2px 2px 2px rgba(0, 0, 0, .6);
+}
+.zonemenu div ul li {
+	float:left;
+	clear:both;
+	height:24px;
+	cursor:default;
+	line-height:24px;
+	white-space:nowrap;
+	padding:0 30px;
+}
+.zonemenu div ul li.sub {
+	background-repeat:no-repeat;
+	background-position:right 9px;
+	background-image:url(arrow.png);
+}
+.zonemenu div ul li.active {
+	background-color:#f1f3f6;
+	border-radius:3px;
+	border:1px solid #aecff7;
+	height:22px;
+	line-height:22px;
+	background-position:right -8px;
+	padding:0 29px;
+}
+.zonemenu div ul ul {
+	display:none;
+	position:absolute;
+}
